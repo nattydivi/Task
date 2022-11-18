@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f401cf25-b3c0-460e-8b2a-b30e9cffe007" name="Changes" comment="st">
-      <change afterPath="$PROJECT_DIR$/src/com/java/task8/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java/task8/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java/task81/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java/task81/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java/task81/MyArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java/task81/MyList.java" afterDir="false" />
+    <list default="true" id="f401cf25-b3c0-460e-8b2a-b30e9cffe007" name="Changes" comment="test 8-1">
+      <change afterPath="$PROJECT_DIR$/src/com/java/task8/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/task81/t82/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/task8/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/task8/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/task8/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/task8/Menu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/java/task8/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/task8/MyArrayList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/java/task8/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/task8/MyList.java" afterDir="false" />
     </list>
@@ -46,7 +44,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Шикова/Learn Java 2022/Task/Task/src/com/java/task81",
+    "last_opened_file_path": "D:/Шикова/StepchenkoDima",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
@@ -54,14 +52,17 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Шикова\Learn Java 2022\Task\Task\src\com\java\task81" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.java.task8" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.com.java.task8.Main">
-    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.lesson.lesson83.Runner" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.task81.t82.Main" />
       <module name="Task" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.lesson.lesson83.*" />
+          <option name="PATTERN" value="com.java.task81.t82.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.java.task6.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.task6.Main" />
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.lesson.lesson83.Runner" />
       <module name="Task" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.task6.*" />
+          <option name="PATTERN" value="com.java.lesson.lesson83.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,10 +125,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.com.java.task8.Main" />
-        <item itemvalue="Application.com.java.task81.Main" />
         <item itemvalue="Application.com.java.task7.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.com.java.task81.Main" />
         <item itemvalue="Application.Runner" />
-        <item itemvalue="Application.com.java.task6.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668340228721</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="test 8-1">
+      <created>1668381359479</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1668381359479</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -193,6 +201,7 @@
     <MESSAGE value="Тест" />
     <MESSAGE value="Восстновлено" />
     <MESSAGE value="st" />
-    <option name="LAST_COMMIT_MESSAGE" value="st" />
+    <MESSAGE value="test 8-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="test 8-1" />
   </component>
 </project>
