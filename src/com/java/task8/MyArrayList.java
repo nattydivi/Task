@@ -8,7 +8,6 @@ import static com.java.task8.Constants.ILLEGAL_INDEX;
 
 public class MyArrayList<T> implements MyList<T> {
     private int size;
-    private int sizeNew;
     private Object[] myArray;
 
     public MyArrayList() {
@@ -25,12 +24,6 @@ public class MyArrayList<T> implements MyList<T> {
         Object[] a = col.toArray();
         this.size = col.size();
         myArray = a;
-    }
-
-    private Object[] increaseCapacity() {
-        Object[] myArrayBig = new Object[myArray.length + (myArray.length >> 1)];
-        System.arraycopy(myArray, 0, myArrayBig, 0, myArray.length);
-        return myArrayBig;
     }
 
     @Override
@@ -59,12 +52,6 @@ public class MyArrayList<T> implements MyList<T> {
         return size == 0;
     }
 
-    private void checksIndex(int index) {
-        if (index < 0 || index >= this.size) {
-            System.out.println(ILLEGAL_INDEX);
-        }
-    }
-
     @Override
     public T get(int index) {
         checksIndex(index);
@@ -82,13 +69,6 @@ public class MyArrayList<T> implements MyList<T> {
         return null;
     }
 
-    private Object[] copyArrayForInsert(int index) {
-        Object[] myArrayNew = new Object[myArray.length + 1];
-        System.arraycopy(myArray, 0, myArrayNew, 0, index);
-        System.arraycopy(myArray, index, myArrayNew, index + 1, myArray.length - index);
-        return myArrayNew;
-    }
-
     @Override
     public void add(int index, T value) {
         if (index >= 0 && index < this.size) {
@@ -96,13 +76,6 @@ public class MyArrayList<T> implements MyList<T> {
             myArray[index] = value;
             size++;
         } else System.out.println(ILLEGAL_INDEX);
-    }
-
-    private Object[] copyArrayForRemove(int index) {
-        Object[] myArrayNew = new Object[myArray.length - 1];
-        System.arraycopy(myArray, 0, myArrayNew, 0, index);
-        System.arraycopy(myArray, index + 1, myArrayNew, index, myArray.length - (index + 1));
-        return myArrayNew;
     }
 
     @Override
@@ -130,7 +103,7 @@ public class MyArrayList<T> implements MyList<T> {
     public Object[] toArray() {
         Object[] myArrayNew = new Object[size + 10];
         System.arraycopy(myArray, 0, myArrayNew, 0, size);
-        this.sizeNew = this.size;
+        int sizeNew = this.size;
         return myArrayNew;
     }
 
@@ -167,5 +140,31 @@ public class MyArrayList<T> implements MyList<T> {
                 " size=" + size +
                 ", myArray=" + Arrays.toString(myArray) +
                 '}';
+    }
+
+    private Object[] increaseCapacity() {
+        Object[] myArrayBig = new Object[myArray.length + (myArray.length >> 1)];
+        System.arraycopy(myArray, 0, myArrayBig, 0, myArray.length);
+        return myArrayBig;
+    }
+
+    private void checksIndex(int index) {
+        if (index < 0 || index >= this.size) {
+            System.out.println(ILLEGAL_INDEX);
+        }
+    }
+
+    private Object[] copyArrayForInsert(int index) {
+        Object[] myArrayNew = new Object[myArray.length + 1];
+        System.arraycopy(myArray, 0, myArrayNew, 0, index);
+        System.arraycopy(myArray, index, myArrayNew, index + 1, myArray.length - index);
+        return myArrayNew;
+    }
+
+    private Object[] copyArrayForRemove(int index) {
+        Object[] myArrayNew = new Object[myArray.length - 1];
+        System.arraycopy(myArray, 0, myArrayNew, 0, index);
+        System.arraycopy(myArray, index + 1, myArrayNew, index, myArray.length - (index + 1));
+        return myArrayNew;
     }
 }
