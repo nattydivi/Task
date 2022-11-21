@@ -10,11 +10,6 @@ public class MyArrayList<T> implements MyList<T> {
     private int size;
     private int sizeNew;
     private Object[] myArray;
-//
-//    {
-//        size = 0;
-//        sizeNew = 0;
-//    }
 
     public MyArrayList() {
         this.myArray = new Object[DEFAULT_CAPACITY];
