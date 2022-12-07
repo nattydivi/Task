@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ffa708b-0603-4de2-aad9-7213dc20198f" name="Changes" comment="task 10">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/task10/test/ProductName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/task10/test/ProductName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task11/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/task10/menu/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task11/menu/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/task10/menu/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task11/menu/MenuClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/task10/menu/MenuClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task11/menu/MenuWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/task10/menu/MenuWorker.java" afterDir="false" />
-    </list>
+
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,6 +118,7 @@
         <item itemvalue="Application.FileWriterReader" />
         <item itemvalue="Application.Menu" />
         <item itemvalue="Application.Main" />
+
       </list>
     </recent_temporary>
   </component>
