@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ffa708b-0603-4de2-aad9-7213dc20198f" name="Changes" comment="task 10">
-      <change afterPath="$PROJECT_DIR$/src/com/java/task10/test/FileWriterReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/task10/test/ProductName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/task10/test/ProductName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task11/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/task10/menu/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task11/menu/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/task10/menu/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task11/menu/MenuClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/task10/menu/MenuClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task11/menu/MenuWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/task10/menu/MenuWorker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +41,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "last_opened_file_path": "D:/Шикова/task__6_Ship_super"
+    "last_opened_file_path": "D:/Шикова/Learn Java 2022/Task/Task",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -72,11 +80,11 @@
       </method>
     </configuration>
     <configuration name="Menu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task11.menu.Menu" />
+      <option name="MAIN_CLASS_NAME" value="com.java.task10.menu.Menu" />
       <module name="Task" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task11.menu.*" />
+          <option name="PATTERN" value="com.java.task10.menu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="task11.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task11.Main" />
+    <configuration name="com.java.task10.menu.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.task10.menu.Main" />
       <module name="Task" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task11.*" />
+          <option name="PATTERN" value="com.java.task10.menu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,8 +121,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.com.java.task10.Main" />
+        <item itemvalue="Application.com.java.task10.menu.Main" />
         <item itemvalue="Application.FileWriterReader" />
-        <item itemvalue="Application.task11.Main" />
         <item itemvalue="Application.Menu" />
         <item itemvalue="Application.Main" />
       </list>
@@ -171,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669672659655</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="task 10">
+      <created>1669734628548</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669734628548</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

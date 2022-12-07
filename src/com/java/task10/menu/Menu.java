@@ -1,4 +1,4 @@
-package task11.menu;
+package com.java.task10.menu;
 
 import java.util.Scanner;
 
