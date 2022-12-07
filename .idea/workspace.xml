@@ -10,7 +10,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
+
         <option value="Class" />
       </list>
     </option>
@@ -32,33 +32,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "last_opened_file_path": "D:/Шикова/Learn Java 2022/Task/Task",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
-  }
-}]]></component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.java.task10.test" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.com.java.task10.Main">
-    <configuration name="FileWriterReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.task10.test.FileWriterReader" />
-      <module name="Task" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.task10.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.task8.Main" />
       <module name="Task" />
@@ -111,12 +85,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.java.task9.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.task9.Main" />
+      <module name="Task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.task9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.java.task10.Main" />
-        <item itemvalue="Application.com.java.task10.menu.Main" />
-        <item itemvalue="Application.FileWriterReader" />
-        <item itemvalue="Application.Menu" />
+
         <item itemvalue="Application.Main" />
 
       </list>
@@ -138,49 +122,7 @@
       <option name="project" value="LOCAL" />
       <updated>1668990242239</updated>
     </task>
-    <task id="LOCAL-00003" summary="task 10">
-      <created>1669153316858</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1669153316858</updated>
-    </task>
-    <task id="LOCAL-00004" summary="task 10">
-      <created>1669154422047</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1669154422047</updated>
-    </task>
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="7ffa708b-0603-4de2-aad9-7213dc20198f" name="Changes" comment="task 10" />
-      <created>1669158374969</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1669158374969</updated>
-    </task>
-    <task id="LOCAL-00005" summary="task 10">
-      <created>1669584207205</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1669584207205</updated>
-    </task>
-    <task id="LOCAL-00006" summary="task 10">
-      <created>1669672659655</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1669672659655</updated>
-    </task>
-    <task id="LOCAL-00007" summary="task 10">
-      <created>1669734628548</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1669734628548</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
+
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -200,7 +142,6 @@
     <MESSAGE value="st" />
     <MESSAGE value="test 8-1" />
     <MESSAGE value="task 8" />
-    <MESSAGE value="task 10" />
-    <option name="LAST_COMMIT_MESSAGE" value="task 10" />
+
   </component>
 </project>
