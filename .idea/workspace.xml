@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ffa708b-0603-4de2-aad9-7213dc20198f" name="Changes" comment="task 9">
-      <change afterPath="$PROJECT_DIR$/src/com/java/task9/AssetTurnover.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java/task9/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java/task9/InputTypeIsIncorrectException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java/task9/LowerRevenueException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java/task9/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java/task9/MathematicalException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java/task9/TestException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +10,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+
         <option value="Class" />
       </list>
     </option>
@@ -40,12 +32,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.java.task9" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.com.java.task9.Main">
+
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.task8.Main" />
       <module name="Task" />
@@ -59,12 +46,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.java.task5.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.task5.Main" />
+    <configuration name="Menu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.task10.menu.Menu" />
       <module name="Task" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.task5.*" />
+          <option name="PATTERN" value="com.java.task10.menu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +59,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.java.task6.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.task6.Main" />
+    <configuration name="com.java.task10.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.task10.Main" />
       <module name="Task" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.task6.*" />
+          <option name="PATTERN" value="com.java.task10.product.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.java.task7.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.task7.Main" />
+    <configuration name="com.java.task10.menu.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.task10.menu.Main" />
       <module name="Task" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.task7.*" />
+          <option name="PATTERN" value="com.java.task10.menu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +100,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.java.task9.Main" />
+
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.com.java.task5.Main" />
-        <item itemvalue="Application.com.java.task6.Main" />
-        <item itemvalue="Application.com.java.task7.Main" />
+
       </list>
     </recent_temporary>
   </component>
@@ -137,28 +122,7 @@
       <option name="project" value="LOCAL" />
       <updated>1668990242239</updated>
     </task>
-    <task id="LOCAL-00003" summary="task 8 private-методы перенесла ниже, удалила начальные размеры, и 1 переменную сделала локальной">
-      <created>1668991177620</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1668991177620</updated>
-    </task>
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="7ffa708b-0603-4de2-aad9-7213dc20198f" name="Changes" comment="task 8 private-методы перенесла ниже, удалила начальные размеры, и 1 переменную сделала локальной" />
-      <created>1669059008281</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1669059008281</updated>
-    </task>
-    <task id="LOCAL-00004" summary="task 9">
-      <created>1669060474914</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1669060474914</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,18 +142,6 @@
     <MESSAGE value="st" />
     <MESSAGE value="test 8-1" />
     <MESSAGE value="task 8" />
-    <MESSAGE value="task 8 private-методы перенесла ниже, удалила начальные размеры, и 1 переменную сделала локальной" />
-    <MESSAGE value="task 9" />
-    <option name="LAST_COMMIT_MESSAGE" value="task 9" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.util.InputMismatchException" package="java.util" />
-          <option name="timeStamp" value="2" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+
   </component>
 </project>
